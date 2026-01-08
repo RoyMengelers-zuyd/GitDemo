@@ -9,6 +9,8 @@ namespace GitDemo
 
             Hond tijn = new Hond("tijn", 2, false, "tijn blaft veel");
 
+            Meeuw meeuw1 = new Meeuw("Albatros");
+            meeuw1.Bewegen();
         }
     }
 }
