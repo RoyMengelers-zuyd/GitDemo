@@ -6,7 +6,7 @@ namespace GitDemo
     {
         static void Main(string[] args)
         {
-            hond tijn = new hond("tijn", 2, false, "tijn blaft veel");
+            Hond tijn = new Hond("tijn", 2, false, "tijn blaft veel");
         }
     }
 }
