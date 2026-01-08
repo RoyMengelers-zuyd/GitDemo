@@ -1,4 +1,6 @@
-﻿namespace GitDemo
+﻿using GitDemo.Models;
+
+namespace GitDemo
 {
     internal class Program
     {
