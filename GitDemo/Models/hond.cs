@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace GitDemo.Models
 {
-    internal class hond : Dier
+    internal class Hond : Dier
     {
         public int Aantalpoten { get; private set; }
         public bool Veelgeld { get;  set; }
 
         public string Blaffen { get;  set; } = "tijn blaft veel";
-        public hond(string naam, int aantalpoten, bool veelgeld, string blaffen) : base(naam)
+        public Hond(string naam, int aantalpoten, bool veelgeld, string blaffen) : base(naam)
         {
             Aantalpoten = aantalpoten; 
             Veelgeld = veelgeld;
